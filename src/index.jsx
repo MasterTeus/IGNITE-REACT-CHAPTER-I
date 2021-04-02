@@ -1,6 +1,6 @@
 import React from "react";
+import { App } from "./App";
 
-
-function App() {
-  return <h1>Ola mundo</h1>
+function Wrapper() {
+  return App();
 }
